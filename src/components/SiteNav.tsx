@@ -5,7 +5,7 @@ const SiteNav = () => (
   <header className="site-header">
     <nav className="site-nav" aria-label="Main navigation">
       <Link className="brand" to="/" aria-label="Jean Petit BIKIM — Home">
-        <span className="brand-mark">JB</span>
+        <span className="brand-mark">JP</span>
         <span className="brand-name">Jean Petit <b>BIKIM</b></span>
       </Link>
 
