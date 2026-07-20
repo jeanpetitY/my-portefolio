@@ -17,6 +17,14 @@ Production build:
 npm run build
 ```
 
+## Deploy to Vercel
+
+The official Rasengan Vercel adapter is already configured. Import the Git repository into Vercel or run:
+
+```bash
+npx vercel --prod
+```
+
 ## Stack
 
-Rasengan.js · React · TypeScript · CSS
+Rasengan.js · React · TypeScript · CSS · Vercel
