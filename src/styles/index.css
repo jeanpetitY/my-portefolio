@@ -144,18 +144,13 @@ img { max-width: 100%; }
 .brand-mark {
   width: 34px;
   height: 34px;
-  display: grid;
-  place-items: center;
+  display: block;
   border-radius: 10px;
-  color: var(--bg);
-  background: var(--ink);
-  font: 500 10px var(--font-mono);
+  object-fit: contain;
   transform: rotate(-5deg);
   transition: transform .3s ease;
 }
 .brand:hover .brand-mark { transform: rotate(3deg); }
-.brand-name { font: 500 12px var(--font-display); letter-spacing: -.03em; }
-.brand-name b { font-weight: 700; }
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a {
   position: relative;
@@ -493,7 +488,6 @@ img { max-width: 100%; }
   .footer-contact,
   .footer-bottom { width: min(100% - 40px, 680px); }
   .site-nav { grid-template-columns: auto 1fr auto; gap: 16px; }
-  .brand-name { display: none; }
   .nav-links { justify-self: center; gap: 17px; }
   .nav-contact { display: none; }
   .theme-toggle > span:last-child { display: none; }
